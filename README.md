@@ -3,6 +3,8 @@ Vote '12 iOS
 Take the fifteen question test to see which candidate is your ideal pick. Use the built-in Wikipedia information lookup to view more details about the current question.
 Share your result with friends and followers on Facebook (iOS 6+ only) and Twitter!
 
+![alt text](https://github.com/patch-e/Vote12/blob/master/Vote2012/vote12_144x144.png?raw=true "Vote '12 App Icon")
+
 Support:
 http://mccrager.com/Vote12
 
