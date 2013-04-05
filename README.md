@@ -7,11 +7,11 @@ Share your result with friends and followers on Facebook (iOS 6+ only) and Twitt
 Support:
 http://mccrager.com/Vote12
 
-iTunes:
-http://itunes.com/apps/Vote12
+App Store:
+http://appstore.com//Vote12
 
-Current Version: 1.0
+Final Version: 1.0
 
 v1.0
 ====
-- Initial release
+- Released
