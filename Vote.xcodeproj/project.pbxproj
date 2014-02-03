@@ -89,9 +89,7 @@
 		CD9F192F189F62BA00B249B2 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppiraterDelegate.h; path = Vote/AppiraterDelegate.h; sourceTree = SOURCE_ROOT; };
 		CD9F1931189F62E200B249B2 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Vote/Flurry.h; sourceTree = SOURCE_ROOT; };
 		CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.3.1.a; path = Vote/libFlurry_4.3.1.a; sourceTree = SOURCE_ROOT; };
-		CD9F1933189F62E200B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CD9F1936189F62F100B249B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Vote/main.m; sourceTree = SOURCE_ROOT; };
-		CD9F1937189F62F100B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CD9F1938189F62F100B249B2 /* Vote-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Vote-Prefix.pch"; path = "Vote/Vote-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		CD9F193B189F630400B249B2 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = Vote/Question.h; sourceTree = SOURCE_ROOT; };
 		CD9F193C189F630400B249B2 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = Vote/Question.m; sourceTree = SOURCE_ROOT; };
@@ -145,6 +143,7 @@
 		CD9F1980189F63E600B249B2 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter@2x.png"; path = "Vote/twitter@2x.png"; sourceTree = SOURCE_ROOT; };
 		CD9F199B189F650C00B249B2 /* vote12_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_57x57.png; path = Vote/vote12_57x57.png; sourceTree = SOURCE_ROOT; };
 		CD9F199C189F650C00B249B2 /* vote12_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_114x114.png; path = Vote/vote12_114x114.png; sourceTree = SOURCE_ROOT; };
+		CD9F199F189F661900B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CDD6C807189EEF4400EB57C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CDD6C808189EEF4400EB57C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		CDD6C80F189EF34300EB57C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -225,8 +224,7 @@
 				CD9F192F189F62BA00B249B2 /* AppiraterDelegate.h */,
 				CD9F1931189F62E200B249B2 /* Flurry.h */,
 				CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */,
-				CD9F1933189F62E200B249B2 /* Vote-Info.plist */,
-				CD9F1937189F62F100B249B2 /* Vote-Info.plist */,
+				CD9F199F189F661900B249B2 /* Vote-Info.plist */,
 				CD9F1938189F62F100B249B2 /* Vote-Prefix.pch */,
 				CD9F1936189F62F100B249B2 /* main.m */,
 			);
@@ -523,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vote/Vote-Prefix.pch";
 				INFOPLIST_FILE = "Vote/Vote-Info.plist";
@@ -532,6 +531,7 @@
 					/Users/patrick/Documents/Vote12/Vote,
 				);
 				PRODUCT_NAME = Vote;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -542,7 +542,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Vote/Vote-Prefix.pch";
 				INFOPLIST_FILE = "Vote/Vote-Info.plist";
@@ -552,6 +552,7 @@
 					/Users/patrick/Documents/Vote12/Vote,
 				);
 				PRODUCT_NAME = Vote;
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
