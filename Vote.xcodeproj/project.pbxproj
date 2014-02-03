@@ -8,147 +8,146 @@
 
 /* Begin PBXBuildFile section */
 		CD228934160A7AD4003A6FFE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD228933160A7AD4003A6FFE /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		CD2997C4160802A900A48EDE /* vote12_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997BC160802A900A48EDE /* vote12_72x72.png */; };
-		CD2997C6160802A900A48EDE /* vote12_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997BE160802A900A48EDE /* vote12_144x144.png */; };
-		CD2997C8160802A900A48EDE /* vote12_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997C0160802A900A48EDE /* vote12_512x512.png */; };
-		CD2997CD160802C900A48EDE /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997CB160802C900A48EDE /* banner.png */; };
-		CD2997CE160802C900A48EDE /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997CC160802C900A48EDE /* banner@2x.png */; };
-		CD2997D01608175400A48EDE /* vote12_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997CF1608175400A48EDE /* vote12_57x57.png */; };
-		CD2997D21608176200A48EDE /* vote12_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2997D11608176200A48EDE /* vote12_114x114.png */; };
 		CD3B520515FEAA760093DCDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520415FEAA760093DCDB /* UIKit.framework */; };
 		CD3B520715FEAA760093DCDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520615FEAA760093DCDB /* Foundation.framework */; };
 		CD3B520915FEAA760093DCDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520815FEAA760093DCDB /* CoreGraphics.framework */; };
-		CD3B520F15FEAA760093DCDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3B520D15FEAA760093DCDB /* InfoPlist.strings */; };
-		CD3B521115FEAA760093DCDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3B521015FEAA760093DCDB /* main.m */; };
-		CD3B521515FEAA760093DCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3B521415FEAA760093DCDB /* AppDelegate.m */; };
-		CD3B521815FEAA760093DCDB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B521615FEAA760093DCDB /* MainStoryboard_iPhone.storyboard */; };
-		CD3B521E15FEAA760093DCDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3B521D15FEAA760093DCDB /* ViewController.m */; };
 		CD3B522C15FEADB60093DCDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3B522B15FEADB60093DCDB /* Default.png */; };
 		CD3B522E15FEADC60093DCDB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3B522D15FEADC60093DCDB /* Default@2x.png */; };
 		CD3C81831606B0EF0094B5EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */; };
-		CD3D9C851600195B003BF30B /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D9C841600195B003BF30B /* Question.m */; };
-		CD4C7227160AB26E00ACD5FD /* Facebook.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C7226160AB26E00ACD5FD /* Facebook.txt */; };
-		CD4C722B160ABDBB00ACD5FD /* Twitter.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD4C722A160ABDBB00ACD5FD /* Twitter.txt */; };
-		CD5EE78115FEE6A3008C99E1 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5EE78015FEE6A3008C99E1 /* ResultsViewController.m */; };
-		CD6F4E7B1609626200B30EE0 /* obama.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6F4E771609626200B30EE0 /* obama.png */; };
-		CD6F4E7C1609626200B30EE0 /* obama@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6F4E781609626200B30EE0 /* obama@2x.png */; };
-		CD6F4E7D1609626200B30EE0 /* romney.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6F4E791609626200B30EE0 /* romney.png */; };
-		CD6F4E7E1609626200B30EE0 /* romney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6F4E7A1609626200B30EE0 /* romney@2x.png */; };
-		CD73443D160C232D0040F96C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = CD73443C160C232D0040F96C /* Appirater.m */; };
-		CD734481160E837B0040F96C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734469160E837B0040F96C /* back.png */; };
-		CD734482160E837B0040F96C /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73446A160E837B0040F96C /* back@2x.png */; };
-		CD734485160E837B0040F96C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73446D160E837B0040F96C /* close.png */; };
-		CD734486160E837B0040F96C /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73446E160E837B0040F96C /* close@2x.png */; };
-		CD734489160E837B0040F96C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734471160E837B0040F96C /* facebook.png */; };
-		CD73448A160E837B0040F96C /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734472160E837B0040F96C /* facebook@2x.png */; };
-		CD73448D160E837B0040F96C /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734475160E837B0040F96C /* info.png */; };
-		CD73448E160E837B0040F96C /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734476160E837B0040F96C /* info@2x.png */; };
-		CD734491160E837B0040F96C /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = CD734479160E837B0040F96C /* share.png */; };
-		CD734492160E837B0040F96C /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73447A160E837B0040F96C /* share@2x.png */; };
-		CD734495160E837B0040F96C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73447D160E837B0040F96C /* twitter.png */; };
-		CD734496160E837B0040F96C /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD73447E160E837B0040F96C /* twitter@2x.png */; };
-		CD9B03EA1612968C006BF6A6 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03E91612968C006BF6A6 /* start.png */; };
-		CD9B03ED16129783006BF6A6 /* start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03EC16129783006BF6A6 /* start@2x.png */; };
-		CD9B03F81612B964006BF6A6 /* ballotbox_no.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F21612B963006BF6A6 /* ballotbox_no.png */; };
-		CD9B03F91612B964006BF6A6 /* ballotbox_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F31612B963006BF6A6 /* ballotbox_no@2x.png */; };
-		CD9B03FA1612B964006BF6A6 /* ballotbox_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F41612B963006BF6A6 /* ballotbox_yes.png */; };
-		CD9B03FB1612B964006BF6A6 /* ballotbox_yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F51612B963006BF6A6 /* ballotbox_yes@2x.png */; };
-		CD9B03FC1612B964006BF6A6 /* ballotbox.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F61612B964006BF6A6 /* ballotbox.png */; };
-		CD9B03FD1612B964006BF6A6 /* ballotbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03F71612B964006BF6A6 /* ballotbox@2x.png */; };
-		CD9B03FF1612BDBB006BF6A6 /* vote12_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B03FE1612BDBB006BF6A6 /* vote12_1024x1024.png */; };
-		CD9B040C1613B1BE006BF6A6 /* start_over.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B04081613B1BE006BF6A6 /* start_over.png */; };
-		CD9B040D1613B1BE006BF6A6 /* start_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B04091613B1BE006BF6A6 /* start_over@2x.png */; };
-		CD9B040E1613B1BE006BF6A6 /* start_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B040A1613B1BE006BF6A6 /* start_pressed.png */; };
-		CD9B040F1613B1BE006BF6A6 /* start_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9B040B1613B1BE006BF6A6 /* start_pressed@2x.png */; };
-		CDD6C803189EA37600EB57C4 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD6C802189EA37600EB57C4 /* ShareViewController.m */; };
+		CD9F192C189F629500B249B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F192B189F629500B249B2 /* AppDelegate.m */; };
+		CD9F1930189F62BA00B249B2 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F192E189F62BA00B249B2 /* Appirater.m */; };
+		CD9F1934189F62E200B249B2 /* libFlurry_4.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */; };
+		CD9F1939189F62F100B249B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1936189F62F100B249B2 /* main.m */; };
+		CD9F193D189F630400B249B2 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F193C189F630400B249B2 /* Question.m */; };
+		CD9F1940189F634600B249B2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9F193E189F634600B249B2 /* MainStoryboard_iPhone.storyboard */; };
+		CD9F1949189F635B00B249B2 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1942189F635B00B249B2 /* ResultsViewController.m */; };
+		CD9F194A189F635B00B249B2 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1944189F635B00B249B2 /* ShareViewController.m */; };
+		CD9F194B189F635B00B249B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1946189F635B00B249B2 /* ViewController.m */; };
+		CD9F194C189F635B00B249B2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F1948189F635B00B249B2 /* WebViewController.m */; };
+		CD9F1950189F637C00B249B2 /* Facebook.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9F194D189F637C00B249B2 /* Facebook.txt */; };
+		CD9F1951189F637C00B249B2 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CD9F194E189F637C00B249B2 /* questions.json */; };
+		CD9F1952189F637C00B249B2 /* Twitter.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD9F194F189F637C00B249B2 /* Twitter.txt */; };
+		CD9F1957189F639300B249B2 /* vote12_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1953189F639300B249B2 /* vote12_72x72.png */; };
+		CD9F1958189F639300B249B2 /* vote12_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1954189F639300B249B2 /* vote12_144x144.png */; };
+		CD9F1959189F639300B249B2 /* vote12_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1955189F639300B249B2 /* vote12_512x512.png */; };
+		CD9F195A189F639300B249B2 /* vote12_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1956189F639300B249B2 /* vote12_1024x1024.png */; };
+		CD9F1961189F63AB00B249B2 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F195B189F63AB00B249B2 /* banner.png */; };
+		CD9F1962189F63AB00B249B2 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F195C189F63AB00B249B2 /* banner@2x.png */; };
+		CD9F1963189F63AB00B249B2 /* obama.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F195D189F63AB00B249B2 /* obama.png */; };
+		CD9F1964189F63AB00B249B2 /* obama@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F195E189F63AB00B249B2 /* obama@2x.png */; };
+		CD9F1965189F63AB00B249B2 /* romney.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F195F189F63AB00B249B2 /* romney.png */; };
+		CD9F1966189F63AB00B249B2 /* romney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1960189F63AB00B249B2 /* romney@2x.png */; };
+		CD9F1981189F63E600B249B2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1967189F63E600B249B2 /* back.png */; };
+		CD9F1982189F63E600B249B2 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1968189F63E600B249B2 /* back@2x.png */; };
+		CD9F1983189F63E600B249B2 /* ballotbox_no.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1969189F63E600B249B2 /* ballotbox_no.png */; };
+		CD9F1984189F63E600B249B2 /* ballotbox_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196A189F63E600B249B2 /* ballotbox_no@2x.png */; };
+		CD9F1985189F63E600B249B2 /* ballotbox_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196B189F63E600B249B2 /* ballotbox_yes.png */; };
+		CD9F1986189F63E600B249B2 /* ballotbox_yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196C189F63E600B249B2 /* ballotbox_yes@2x.png */; };
+		CD9F1987189F63E600B249B2 /* ballotbox.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196D189F63E600B249B2 /* ballotbox.png */; };
+		CD9F1988189F63E600B249B2 /* ballotbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196E189F63E600B249B2 /* ballotbox@2x.png */; };
+		CD9F1989189F63E600B249B2 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F196F189F63E600B249B2 /* close.png */; };
+		CD9F198A189F63E600B249B2 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1970189F63E600B249B2 /* close@2x.png */; };
+		CD9F198B189F63E600B249B2 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1971189F63E600B249B2 /* facebook.png */; };
+		CD9F198C189F63E600B249B2 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1972189F63E600B249B2 /* facebook@2x.png */; };
+		CD9F198D189F63E600B249B2 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1973189F63E600B249B2 /* forward.png */; };
+		CD9F198E189F63E600B249B2 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1974189F63E600B249B2 /* forward@2x.png */; };
+		CD9F198F189F63E600B249B2 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1975189F63E600B249B2 /* info.png */; };
+		CD9F1990189F63E600B249B2 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1976189F63E600B249B2 /* info@2x.png */; };
+		CD9F1991189F63E600B249B2 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1977189F63E600B249B2 /* share.png */; };
+		CD9F1992189F63E600B249B2 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1978189F63E600B249B2 /* share@2x.png */; };
+		CD9F1993189F63E600B249B2 /* start_over.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1979189F63E600B249B2 /* start_over.png */; };
+		CD9F1994189F63E600B249B2 /* start_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197A189F63E600B249B2 /* start_over@2x.png */; };
+		CD9F1995189F63E600B249B2 /* start_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197B189F63E600B249B2 /* start_pressed.png */; };
+		CD9F1996189F63E600B249B2 /* start_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197C189F63E600B249B2 /* start_pressed@2x.png */; };
+		CD9F1997189F63E600B249B2 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197D189F63E600B249B2 /* start.png */; };
+		CD9F1998189F63E600B249B2 /* start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197E189F63E600B249B2 /* start@2x.png */; };
+		CD9F1999189F63E600B249B2 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F197F189F63E600B249B2 /* twitter.png */; };
+		CD9F199A189F63E600B249B2 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1980189F63E600B249B2 /* twitter@2x.png */; };
+		CD9F199D189F650C00B249B2 /* vote12_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F199B189F650C00B249B2 /* vote12_57x57.png */; };
+		CD9F199E189F650C00B249B2 /* vote12_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F199C189F650C00B249B2 /* vote12_114x114.png */; };
 		CDD6C809189EEF4400EB57C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C807189EEF4400EB57C4 /* CFNetwork.framework */; };
 		CDD6C80A189EEF4400EB57C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C808189EEF4400EB57C4 /* StoreKit.framework */; };
 		CDD6C80C189EF0C900EB57C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD734440160C25F30040F96C /* SystemConfiguration.framework */; };
-		CDD6C80E189EF26800EB57C4 /* libFlurry_4.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C80D189EF26800EB57C4 /* libFlurry_4.3.1.a */; };
 		CDD6C810189EF34300EB57C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C80F189EF34300EB57C4 /* Security.framework */; };
-		CDD6C812189F471100EB57C4 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = CDD6C811189F471100EB57C4 /* questions.json */; };
-		CDF91660161BE38100EC61A2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF9165F161BE38100EC61A2 /* WebViewController.m */; };
-		CDF91670161CA2BF00EC61A2 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF9166E161CA2BF00EC61A2 /* forward.png */; };
-		CDF91671161CA2BF00EC61A2 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF9166F161CA2BF00EC61A2 /* forward@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD228933160A7AD4003A6FFE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		CD228935160A7ADE003A6FFE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		CD2997BC160802A900A48EDE /* vote12_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote12_72x72.png; sourceTree = "<group>"; };
-		CD2997BE160802A900A48EDE /* vote12_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote12_144x144.png; sourceTree = "<group>"; };
-		CD2997C0160802A900A48EDE /* vote12_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote12_512x512.png; sourceTree = "<group>"; };
-		CD2997CB160802C900A48EDE /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
-		CD2997CC160802C900A48EDE /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
-		CD2997CF1608175400A48EDE /* vote12_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_57x57.png; path = ../vote12_57x57.png; sourceTree = "<group>"; };
-		CD2997D11608176200A48EDE /* vote12_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_114x114.png; path = ../vote12_114x114.png; sourceTree = "<group>"; };
 		CD3B520015FEAA760093DCDB /* Vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3B520415FEAA760093DCDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD3B520615FEAA760093DCDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD3B520815FEAA760093DCDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CD3B520C15FEAA760093DCDB /* Vote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vote-Info.plist"; sourceTree = "<group>"; };
-		CD3B520E15FEAA760093DCDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD3B521015FEAA760093DCDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD3B521215FEAA760093DCDB /* Vote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vote-Prefix.pch"; sourceTree = "<group>"; };
-		CD3B521315FEAA760093DCDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD3B521415FEAA760093DCDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD3B521715FEAA760093DCDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		CD3B521C15FEAA760093DCDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD3B521D15FEAA760093DCDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD3B522B15FEADB60093DCDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		CD3B522D15FEADC60093DCDB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		CD3D9C831600195B003BF30B /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		CD3D9C841600195B003BF30B /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		CD4C7226160AB26E00ACD5FD /* Facebook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Facebook.txt; sourceTree = "<group>"; };
-		CD4C722A160ABDBB00ACD5FD /* Twitter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Twitter.txt; sourceTree = "<group>"; };
-		CD5EE77F15FEE6A3008C99E1 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
-		CD5EE78015FEE6A3008C99E1 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
-		CD6F4E771609626200B30EE0 /* obama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obama.png; sourceTree = "<group>"; };
-		CD6F4E781609626200B30EE0 /* obama@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "obama@2x.png"; sourceTree = "<group>"; };
-		CD6F4E791609626200B30EE0 /* romney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = romney.png; sourceTree = "<group>"; };
-		CD6F4E7A1609626200B30EE0 /* romney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "romney@2x.png"; sourceTree = "<group>"; };
-		CD73443B160C232D0040F96C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		CD73443C160C232D0040F96C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
 		CD734440160C25F30040F96C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		CD734469160E837B0040F96C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		CD73446A160E837B0040F96C /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
-		CD73446D160E837B0040F96C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
-		CD73446E160E837B0040F96C /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
-		CD734471160E837B0040F96C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
-		CD734472160E837B0040F96C /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
-		CD734475160E837B0040F96C /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
-		CD734476160E837B0040F96C /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		CD734479160E837B0040F96C /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
-		CD73447A160E837B0040F96C /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
-		CD73447D160E837B0040F96C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
-		CD73447E160E837B0040F96C /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
-		CD9B03E91612968C006BF6A6 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
-		CD9B03EC16129783006BF6A6 /* start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start@2x.png"; sourceTree = "<group>"; };
-		CD9B03F21612B963006BF6A6 /* ballotbox_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballotbox_no.png; sourceTree = "<group>"; };
-		CD9B03F31612B963006BF6A6 /* ballotbox_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballotbox_no@2x.png"; sourceTree = "<group>"; };
-		CD9B03F41612B963006BF6A6 /* ballotbox_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballotbox_yes.png; sourceTree = "<group>"; };
-		CD9B03F51612B963006BF6A6 /* ballotbox_yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballotbox_yes@2x.png"; sourceTree = "<group>"; };
-		CD9B03F61612B964006BF6A6 /* ballotbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballotbox.png; sourceTree = "<group>"; };
-		CD9B03F71612B964006BF6A6 /* ballotbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballotbox@2x.png"; sourceTree = "<group>"; };
-		CD9B03FE1612BDBB006BF6A6 /* vote12_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote12_1024x1024.png; sourceTree = "<group>"; };
-		CD9B04081613B1BE006BF6A6 /* start_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_over.png; sourceTree = "<group>"; };
-		CD9B04091613B1BE006BF6A6 /* start_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_over@2x.png"; sourceTree = "<group>"; };
-		CD9B040A1613B1BE006BF6A6 /* start_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_pressed.png; sourceTree = "<group>"; };
-		CD9B040B1613B1BE006BF6A6 /* start_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_pressed@2x.png"; sourceTree = "<group>"; };
-		CDD6C801189EA37600EB57C4 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
-		CDD6C802189EA37600EB57C4 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
-		CDD6C804189EEEE300EB57C4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		CD9F192A189F629500B249B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Vote/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CD9F192B189F629500B249B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Vote/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CD9F192D189F62BA00B249B2 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Appirater.h; path = Vote/Appirater.h; sourceTree = SOURCE_ROOT; };
+		CD9F192E189F62BA00B249B2 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Appirater.m; path = Vote/Appirater.m; sourceTree = SOURCE_ROOT; };
+		CD9F192F189F62BA00B249B2 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppiraterDelegate.h; path = Vote/AppiraterDelegate.h; sourceTree = SOURCE_ROOT; };
+		CD9F1931189F62E200B249B2 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Vote/Flurry.h; sourceTree = SOURCE_ROOT; };
+		CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_4.3.1.a; path = Vote/libFlurry_4.3.1.a; sourceTree = SOURCE_ROOT; };
+		CD9F1933189F62E200B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CD9F1936189F62F100B249B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Vote/main.m; sourceTree = SOURCE_ROOT; };
+		CD9F1937189F62F100B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CD9F1938189F62F100B249B2 /* Vote-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Vote-Prefix.pch"; path = "Vote/Vote-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		CD9F193B189F630400B249B2 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = Vote/Question.h; sourceTree = SOURCE_ROOT; };
+		CD9F193C189F630400B249B2 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = Vote/Question.m; sourceTree = SOURCE_ROOT; };
+		CD9F193F189F634600B249B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Vote/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		CD9F1941189F635B00B249B2 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsViewController.h; path = Vote/ResultsViewController.h; sourceTree = SOURCE_ROOT; };
+		CD9F1942189F635B00B249B2 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsViewController.m; path = Vote/ResultsViewController.m; sourceTree = SOURCE_ROOT; };
+		CD9F1943189F635B00B249B2 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareViewController.h; path = Vote/ShareViewController.h; sourceTree = SOURCE_ROOT; };
+		CD9F1944189F635B00B249B2 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareViewController.m; path = Vote/ShareViewController.m; sourceTree = SOURCE_ROOT; };
+		CD9F1945189F635B00B249B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Vote/ViewController.h; sourceTree = SOURCE_ROOT; };
+		CD9F1946189F635B00B249B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Vote/ViewController.m; sourceTree = SOURCE_ROOT; };
+		CD9F1947189F635B00B249B2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Vote/WebViewController.h; sourceTree = SOURCE_ROOT; };
+		CD9F1948189F635B00B249B2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Vote/WebViewController.m; sourceTree = SOURCE_ROOT; };
+		CD9F194D189F637C00B249B2 /* Facebook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Facebook.txt; path = Vote/Facebook.txt; sourceTree = SOURCE_ROOT; };
+		CD9F194E189F637C00B249B2 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = questions.json; path = Vote/questions.json; sourceTree = SOURCE_ROOT; };
+		CD9F194F189F637C00B249B2 /* Twitter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Twitter.txt; path = Vote/Twitter.txt; sourceTree = SOURCE_ROOT; };
+		CD9F1953189F639300B249B2 /* vote12_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_72x72.png; path = Vote/vote12_72x72.png; sourceTree = SOURCE_ROOT; };
+		CD9F1954189F639300B249B2 /* vote12_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_144x144.png; path = Vote/vote12_144x144.png; sourceTree = SOURCE_ROOT; };
+		CD9F1955189F639300B249B2 /* vote12_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_512x512.png; path = Vote/vote12_512x512.png; sourceTree = SOURCE_ROOT; };
+		CD9F1956189F639300B249B2 /* vote12_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_1024x1024.png; path = Vote/vote12_1024x1024.png; sourceTree = SOURCE_ROOT; };
+		CD9F195B189F63AB00B249B2 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner.png; path = Vote/banner.png; sourceTree = SOURCE_ROOT; };
+		CD9F195C189F63AB00B249B2 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "banner@2x.png"; path = "Vote/banner@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F195D189F63AB00B249B2 /* obama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = obama.png; path = Vote/obama.png; sourceTree = SOURCE_ROOT; };
+		CD9F195E189F63AB00B249B2 /* obama@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "obama@2x.png"; path = "Vote/obama@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F195F189F63AB00B249B2 /* romney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = romney.png; path = Vote/romney.png; sourceTree = SOURCE_ROOT; };
+		CD9F1960189F63AB00B249B2 /* romney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "romney@2x.png"; path = "Vote/romney@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1967189F63E600B249B2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Vote/back.png; sourceTree = SOURCE_ROOT; };
+		CD9F1968189F63E600B249B2 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back@2x.png"; path = "Vote/back@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1969189F63E600B249B2 /* ballotbox_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballotbox_no.png; path = Vote/ballotbox_no.png; sourceTree = SOURCE_ROOT; };
+		CD9F196A189F63E600B249B2 /* ballotbox_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ballotbox_no@2x.png"; path = "Vote/ballotbox_no@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F196B189F63E600B249B2 /* ballotbox_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballotbox_yes.png; path = Vote/ballotbox_yes.png; sourceTree = SOURCE_ROOT; };
+		CD9F196C189F63E600B249B2 /* ballotbox_yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ballotbox_yes@2x.png"; path = "Vote/ballotbox_yes@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F196D189F63E600B249B2 /* ballotbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballotbox.png; path = Vote/ballotbox.png; sourceTree = SOURCE_ROOT; };
+		CD9F196E189F63E600B249B2 /* ballotbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ballotbox@2x.png"; path = "Vote/ballotbox@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F196F189F63E600B249B2 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Vote/close.png; sourceTree = SOURCE_ROOT; };
+		CD9F1970189F63E600B249B2 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close@2x.png"; path = "Vote/close@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1971189F63E600B249B2 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = Vote/facebook.png; sourceTree = SOURCE_ROOT; };
+		CD9F1972189F63E600B249B2 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook@2x.png"; path = "Vote/facebook@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1973189F63E600B249B2 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = Vote/forward.png; sourceTree = SOURCE_ROOT; };
+		CD9F1974189F63E600B249B2 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "forward@2x.png"; path = "Vote/forward@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1975189F63E600B249B2 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Vote/info.png; sourceTree = SOURCE_ROOT; };
+		CD9F1976189F63E600B249B2 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Vote/info@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1977189F63E600B249B2 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = Vote/share.png; sourceTree = SOURCE_ROOT; };
+		CD9F1978189F63E600B249B2 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share@2x.png"; path = "Vote/share@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F1979189F63E600B249B2 /* start_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start_over.png; path = Vote/start_over.png; sourceTree = SOURCE_ROOT; };
+		CD9F197A189F63E600B249B2 /* start_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "start_over@2x.png"; path = "Vote/start_over@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F197B189F63E600B249B2 /* start_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start_pressed.png; path = Vote/start_pressed.png; sourceTree = SOURCE_ROOT; };
+		CD9F197C189F63E600B249B2 /* start_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "start_pressed@2x.png"; path = "Vote/start_pressed@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F197D189F63E600B249B2 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = Vote/start.png; sourceTree = SOURCE_ROOT; };
+		CD9F197E189F63E600B249B2 /* start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "start@2x.png"; path = "Vote/start@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F197F189F63E600B249B2 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = Vote/twitter.png; sourceTree = SOURCE_ROOT; };
+		CD9F1980189F63E600B249B2 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter@2x.png"; path = "Vote/twitter@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F199B189F650C00B249B2 /* vote12_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_57x57.png; path = Vote/vote12_57x57.png; sourceTree = SOURCE_ROOT; };
+		CD9F199C189F650C00B249B2 /* vote12_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_114x114.png; path = Vote/vote12_114x114.png; sourceTree = SOURCE_ROOT; };
 		CDD6C807189EEF4400EB57C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CDD6C808189EEF4400EB57C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		CDD6C80B189EEF8A00EB57C4 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
-		CDD6C80D189EF26800EB57C4 /* libFlurry_4.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.1.a; sourceTree = "<group>"; };
 		CDD6C80F189EF34300EB57C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		CDD6C811189F471100EB57C4 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
-		CDF9165E161BE38100EC61A2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		CDF9165F161BE38100EC61A2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		CDF9166E161CA2BF00EC61A2 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
-		CDF9166F161CA2BF00EC61A2 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +159,10 @@
 				CDD6C80C189EF0C900EB57C4 /* SystemConfiguration.framework in Frameworks */,
 				CDD6C809189EEF4400EB57C4 /* CFNetwork.framework in Frameworks */,
 				CDD6C80A189EEF4400EB57C4 /* StoreKit.framework in Frameworks */,
+				CD9F1934189F62E200B249B2 /* libFlurry_4.3.1.a in Frameworks */,
 				CD228934160A7AD4003A6FFE /* Social.framework in Frameworks */,
 				CD3B520515FEAA760093DCDB /* UIKit.framework in Frameworks */,
 				CD3B520715FEAA760093DCDB /* Foundation.framework in Frameworks */,
-				CDD6C80E189EF26800EB57C4 /* libFlurry_4.3.1.a in Frameworks */,
 				CD3B520915FEAA760093DCDB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,8 +206,8 @@
 		CD3B520A15FEAA760093DCDB /* Vote */ = {
 			isa = PBXGroup;
 			children = (
-				CD3B521315FEAA760093DCDB /* AppDelegate.h */,
-				CD3B521415FEAA760093DCDB /* AppDelegate.m */,
+				CD9F192A189F629500B249B2 /* AppDelegate.h */,
+				CD9F192B189F629500B249B2 /* AppDelegate.m */,
 				CD3B522415FEAB910093DCDB /* Assets */,
 				CD3D9C8B16001AA8003BF30B /* GUI */,
 				CD3D9C8A16001A9E003BF30B /* Model */,
@@ -221,15 +220,15 @@
 		CD3B520B15FEAA760093DCDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDD6C80B189EEF8A00EB57C4 /* AppiraterDelegate.h */,
-				CD73443B160C232D0040F96C /* Appirater.h */,
-				CD73443C160C232D0040F96C /* Appirater.m */,
-				CDD6C804189EEEE300EB57C4 /* Flurry.h */,
-				CDD6C80D189EF26800EB57C4 /* libFlurry_4.3.1.a */,
-				CD3B520C15FEAA760093DCDB /* Vote-Info.plist */,
-				CD3B520D15FEAA760093DCDB /* InfoPlist.strings */,
-				CD3B521015FEAA760093DCDB /* main.m */,
-				CD3B521215FEAA760093DCDB /* Vote-Prefix.pch */,
+				CD9F192D189F62BA00B249B2 /* Appirater.h */,
+				CD9F192E189F62BA00B249B2 /* Appirater.m */,
+				CD9F192F189F62BA00B249B2 /* AppiraterDelegate.h */,
+				CD9F1931189F62E200B249B2 /* Flurry.h */,
+				CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */,
+				CD9F1933189F62E200B249B2 /* Vote-Info.plist */,
+				CD9F1937189F62F100B249B2 /* Vote-Info.plist */,
+				CD9F1938189F62F100B249B2 /* Vote-Prefix.pch */,
+				CD9F1936189F62F100B249B2 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,24 +237,24 @@
 			isa = PBXGroup;
 			children = (
 				CD7343EE160C1CAD0040F96C /* buttons */,
-				CD6F4E771609626200B30EE0 /* obama.png */,
-				CD6F4E781609626200B30EE0 /* obama@2x.png */,
-				CD6F4E791609626200B30EE0 /* romney.png */,
-				CD6F4E7A1609626200B30EE0 /* romney@2x.png */,
-				CD2997CB160802C900A48EDE /* banner.png */,
-				CD2997CC160802C900A48EDE /* banner@2x.png */,
-				CD2997CF1608175400A48EDE /* vote12_57x57.png */,
-				CD2997BC160802A900A48EDE /* vote12_72x72.png */,
-				CD2997D11608176200A48EDE /* vote12_114x114.png */,
-				CD2997BE160802A900A48EDE /* vote12_144x144.png */,
-				CD2997C0160802A900A48EDE /* vote12_512x512.png */,
-				CD9B03FE1612BDBB006BF6A6 /* vote12_1024x1024.png */,
+				CD9F195B189F63AB00B249B2 /* banner.png */,
+				CD9F195C189F63AB00B249B2 /* banner@2x.png */,
+				CD9F195D189F63AB00B249B2 /* obama.png */,
+				CD9F195E189F63AB00B249B2 /* obama@2x.png */,
+				CD9F195F189F63AB00B249B2 /* romney.png */,
+				CD9F1960189F63AB00B249B2 /* romney@2x.png */,
+				CD9F199B189F650C00B249B2 /* vote12_57x57.png */,
+				CD9F199C189F650C00B249B2 /* vote12_114x114.png */,
+				CD9F1953189F639300B249B2 /* vote12_72x72.png */,
+				CD9F1954189F639300B249B2 /* vote12_144x144.png */,
+				CD9F1955189F639300B249B2 /* vote12_512x512.png */,
+				CD9F1956189F639300B249B2 /* vote12_1024x1024.png */,
 				CD3B522B15FEADB60093DCDB /* Default.png */,
 				CD3B522D15FEADC60093DCDB /* Default@2x.png */,
 				CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */,
-				CDD6C811189F471100EB57C4 /* questions.json */,
-				CD4C7226160AB26E00ACD5FD /* Facebook.txt */,
-				CD4C722A160ABDBB00ACD5FD /* Twitter.txt */,
+				CD9F194D189F637C00B249B2 /* Facebook.txt */,
+				CD9F194F189F637C00B249B2 /* Twitter.txt */,
+				CD9F194E189F637C00B249B2 /* questions.json */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -263,8 +262,8 @@
 		CD3D9C8A16001A9E003BF30B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CD3D9C831600195B003BF30B /* Question.h */,
-				CD3D9C841600195B003BF30B /* Question.m */,
+				CD9F193B189F630400B249B2 /* Question.h */,
+				CD9F193C189F630400B249B2 /* Question.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -272,15 +271,15 @@
 		CD3D9C8B16001AA8003BF30B /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				CD3B521615FEAA760093DCDB /* MainStoryboard_iPhone.storyboard */,
-				CD3B521C15FEAA760093DCDB /* ViewController.h */,
-				CD3B521D15FEAA760093DCDB /* ViewController.m */,
-				CDF9165E161BE38100EC61A2 /* WebViewController.h */,
-				CDF9165F161BE38100EC61A2 /* WebViewController.m */,
-				CD5EE77F15FEE6A3008C99E1 /* ResultsViewController.h */,
-				CD5EE78015FEE6A3008C99E1 /* ResultsViewController.m */,
-				CDD6C801189EA37600EB57C4 /* ShareViewController.h */,
-				CDD6C802189EA37600EB57C4 /* ShareViewController.m */,
+				CD9F193E189F634600B249B2 /* MainStoryboard_iPhone.storyboard */,
+				CD9F1945189F635B00B249B2 /* ViewController.h */,
+				CD9F1946189F635B00B249B2 /* ViewController.m */,
+				CD9F1947189F635B00B249B2 /* WebViewController.h */,
+				CD9F1948189F635B00B249B2 /* WebViewController.m */,
+				CD9F1941189F635B00B249B2 /* ResultsViewController.h */,
+				CD9F1942189F635B00B249B2 /* ResultsViewController.m */,
+				CD9F1943189F635B00B249B2 /* ShareViewController.h */,
+				CD9F1944189F635B00B249B2 /* ShareViewController.m */,
 			);
 			name = GUI;
 			sourceTree = "<group>";
@@ -288,32 +287,32 @@
 		CD7343EE160C1CAD0040F96C /* buttons */ = {
 			isa = PBXGroup;
 			children = (
-				CD9B03F21612B963006BF6A6 /* ballotbox_no.png */,
-				CD9B03F31612B963006BF6A6 /* ballotbox_no@2x.png */,
-				CD9B03F41612B963006BF6A6 /* ballotbox_yes.png */,
-				CD9B03F51612B963006BF6A6 /* ballotbox_yes@2x.png */,
-				CD9B03F61612B964006BF6A6 /* ballotbox.png */,
-				CD9B03F71612B964006BF6A6 /* ballotbox@2x.png */,
-				CD9B03E91612968C006BF6A6 /* start.png */,
-				CD9B03EC16129783006BF6A6 /* start@2x.png */,
-				CD9B04081613B1BE006BF6A6 /* start_over.png */,
-				CD9B04091613B1BE006BF6A6 /* start_over@2x.png */,
-				CD9B040A1613B1BE006BF6A6 /* start_pressed.png */,
-				CD9B040B1613B1BE006BF6A6 /* start_pressed@2x.png */,
-				CD734469160E837B0040F96C /* back.png */,
-				CD73446A160E837B0040F96C /* back@2x.png */,
-				CDF9166E161CA2BF00EC61A2 /* forward.png */,
-				CDF9166F161CA2BF00EC61A2 /* forward@2x.png */,
-				CD73446D160E837B0040F96C /* close.png */,
-				CD73446E160E837B0040F96C /* close@2x.png */,
-				CD734471160E837B0040F96C /* facebook.png */,
-				CD734472160E837B0040F96C /* facebook@2x.png */,
-				CD734475160E837B0040F96C /* info.png */,
-				CD734476160E837B0040F96C /* info@2x.png */,
-				CD734479160E837B0040F96C /* share.png */,
-				CD73447A160E837B0040F96C /* share@2x.png */,
-				CD73447D160E837B0040F96C /* twitter.png */,
-				CD73447E160E837B0040F96C /* twitter@2x.png */,
+				CD9F1967189F63E600B249B2 /* back.png */,
+				CD9F1968189F63E600B249B2 /* back@2x.png */,
+				CD9F1969189F63E600B249B2 /* ballotbox_no.png */,
+				CD9F196A189F63E600B249B2 /* ballotbox_no@2x.png */,
+				CD9F196B189F63E600B249B2 /* ballotbox_yes.png */,
+				CD9F196C189F63E600B249B2 /* ballotbox_yes@2x.png */,
+				CD9F196D189F63E600B249B2 /* ballotbox.png */,
+				CD9F196E189F63E600B249B2 /* ballotbox@2x.png */,
+				CD9F196F189F63E600B249B2 /* close.png */,
+				CD9F1970189F63E600B249B2 /* close@2x.png */,
+				CD9F1971189F63E600B249B2 /* facebook.png */,
+				CD9F1972189F63E600B249B2 /* facebook@2x.png */,
+				CD9F1973189F63E600B249B2 /* forward.png */,
+				CD9F1974189F63E600B249B2 /* forward@2x.png */,
+				CD9F1975189F63E600B249B2 /* info.png */,
+				CD9F1976189F63E600B249B2 /* info@2x.png */,
+				CD9F1977189F63E600B249B2 /* share.png */,
+				CD9F1978189F63E600B249B2 /* share@2x.png */,
+				CD9F1979189F63E600B249B2 /* start_over.png */,
+				CD9F197A189F63E600B249B2 /* start_over@2x.png */,
+				CD9F197B189F63E600B249B2 /* start_pressed.png */,
+				CD9F197C189F63E600B249B2 /* start_pressed@2x.png */,
+				CD9F197D189F63E600B249B2 /* start.png */,
+				CD9F197E189F63E600B249B2 /* start@2x.png */,
+				CD9F197F189F63E600B249B2 /* twitter.png */,
+				CD9F1980189F63E600B249B2 /* twitter@2x.png */,
 			);
 			name = buttons;
 			sourceTree = "<group>";
@@ -374,52 +373,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3B520F15FEAA760093DCDB /* InfoPlist.strings in Resources */,
-				CD3B521815FEAA760093DCDB /* MainStoryboard_iPhone.storyboard in Resources */,
+				CD9F1986189F63E600B249B2 /* ballotbox_yes@2x.png in Resources */,
 				CD3B522C15FEADB60093DCDB /* Default.png in Resources */,
 				CD3B522E15FEADC60093DCDB /* Default@2x.png in Resources */,
+				CD9F1988189F63E600B249B2 /* ballotbox@2x.png in Resources */,
+				CD9F1998189F63E600B249B2 /* start@2x.png in Resources */,
+				CD9F1961189F63AB00B249B2 /* banner.png in Resources */,
 				CD3C81831606B0EF0094B5EA /* Default-568h@2x.png in Resources */,
-				CD2997C4160802A900A48EDE /* vote12_72x72.png in Resources */,
-				CD2997C6160802A900A48EDE /* vote12_144x144.png in Resources */,
-				CD2997C8160802A900A48EDE /* vote12_512x512.png in Resources */,
-				CD2997CD160802C900A48EDE /* banner.png in Resources */,
-				CD2997CE160802C900A48EDE /* banner@2x.png in Resources */,
-				CD2997D01608175400A48EDE /* vote12_57x57.png in Resources */,
-				CD2997D21608176200A48EDE /* vote12_114x114.png in Resources */,
-				CD6F4E7B1609626200B30EE0 /* obama.png in Resources */,
-				CD6F4E7C1609626200B30EE0 /* obama@2x.png in Resources */,
-				CD6F4E7D1609626200B30EE0 /* romney.png in Resources */,
-				CD6F4E7E1609626200B30EE0 /* romney@2x.png in Resources */,
-				CD4C7227160AB26E00ACD5FD /* Facebook.txt in Resources */,
-				CD4C722B160ABDBB00ACD5FD /* Twitter.txt in Resources */,
-				CDD6C812189F471100EB57C4 /* questions.json in Resources */,
-				CD734481160E837B0040F96C /* back.png in Resources */,
-				CD734482160E837B0040F96C /* back@2x.png in Resources */,
-				CD734485160E837B0040F96C /* close.png in Resources */,
-				CD734486160E837B0040F96C /* close@2x.png in Resources */,
-				CD734489160E837B0040F96C /* facebook.png in Resources */,
-				CD73448A160E837B0040F96C /* facebook@2x.png in Resources */,
-				CD73448D160E837B0040F96C /* info.png in Resources */,
-				CD73448E160E837B0040F96C /* info@2x.png in Resources */,
-				CD734491160E837B0040F96C /* share.png in Resources */,
-				CD734492160E837B0040F96C /* share@2x.png in Resources */,
-				CD734495160E837B0040F96C /* twitter.png in Resources */,
-				CD734496160E837B0040F96C /* twitter@2x.png in Resources */,
-				CD9B03EA1612968C006BF6A6 /* start.png in Resources */,
-				CD9B03ED16129783006BF6A6 /* start@2x.png in Resources */,
-				CD9B03F81612B964006BF6A6 /* ballotbox_no.png in Resources */,
-				CD9B03F91612B964006BF6A6 /* ballotbox_no@2x.png in Resources */,
-				CD9B03FA1612B964006BF6A6 /* ballotbox_yes.png in Resources */,
-				CD9B03FB1612B964006BF6A6 /* ballotbox_yes@2x.png in Resources */,
-				CD9B03FC1612B964006BF6A6 /* ballotbox.png in Resources */,
-				CD9B03FD1612B964006BF6A6 /* ballotbox@2x.png in Resources */,
-				CD9B03FF1612BDBB006BF6A6 /* vote12_1024x1024.png in Resources */,
-				CD9B040C1613B1BE006BF6A6 /* start_over.png in Resources */,
-				CD9B040D1613B1BE006BF6A6 /* start_over@2x.png in Resources */,
-				CD9B040E1613B1BE006BF6A6 /* start_pressed.png in Resources */,
-				CD9B040F1613B1BE006BF6A6 /* start_pressed@2x.png in Resources */,
-				CDF91670161CA2BF00EC61A2 /* forward.png in Resources */,
-				CDF91671161CA2BF00EC61A2 /* forward@2x.png in Resources */,
+				CD9F1962189F63AB00B249B2 /* banner@2x.png in Resources */,
+				CD9F1951189F637C00B249B2 /* questions.json in Resources */,
+				CD9F198B189F63E600B249B2 /* facebook.png in Resources */,
+				CD9F1992189F63E600B249B2 /* share@2x.png in Resources */,
+				CD9F199D189F650C00B249B2 /* vote12_57x57.png in Resources */,
+				CD9F198A189F63E600B249B2 /* close@2x.png in Resources */,
+				CD9F1965189F63AB00B249B2 /* romney.png in Resources */,
+				CD9F1959189F639300B249B2 /* vote12_512x512.png in Resources */,
+				CD9F1991189F63E600B249B2 /* share.png in Resources */,
+				CD9F198F189F63E600B249B2 /* info.png in Resources */,
+				CD9F195A189F639300B249B2 /* vote12_1024x1024.png in Resources */,
+				CD9F1987189F63E600B249B2 /* ballotbox.png in Resources */,
+				CD9F1950189F637C00B249B2 /* Facebook.txt in Resources */,
+				CD9F198E189F63E600B249B2 /* forward@2x.png in Resources */,
+				CD9F1989189F63E600B249B2 /* close.png in Resources */,
+				CD9F1985189F63E600B249B2 /* ballotbox_yes.png in Resources */,
+				CD9F199E189F650C00B249B2 /* vote12_114x114.png in Resources */,
+				CD9F1940189F634600B249B2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CD9F1996189F63E600B249B2 /* start_pressed@2x.png in Resources */,
+				CD9F1999189F63E600B249B2 /* twitter.png in Resources */,
+				CD9F1963189F63AB00B249B2 /* obama.png in Resources */,
+				CD9F1990189F63E600B249B2 /* info@2x.png in Resources */,
+				CD9F198C189F63E600B249B2 /* facebook@2x.png in Resources */,
+				CD9F1982189F63E600B249B2 /* back@2x.png in Resources */,
+				CD9F1993189F63E600B249B2 /* start_over.png in Resources */,
+				CD9F1958189F639300B249B2 /* vote12_144x144.png in Resources */,
+				CD9F1984189F63E600B249B2 /* ballotbox_no@2x.png in Resources */,
+				CD9F198D189F63E600B249B2 /* forward.png in Resources */,
+				CD9F1966189F63AB00B249B2 /* romney@2x.png in Resources */,
+				CD9F1995189F63E600B249B2 /* start_pressed.png in Resources */,
+				CD9F1952189F637C00B249B2 /* Twitter.txt in Resources */,
+				CD9F1964189F63AB00B249B2 /* obama@2x.png in Resources */,
+				CD9F1997189F63E600B249B2 /* start.png in Resources */,
+				CD9F1983189F63E600B249B2 /* ballotbox_no.png in Resources */,
+				CD9F1994189F63E600B249B2 /* start_over@2x.png in Resources */,
+				CD9F1981189F63E600B249B2 /* back.png in Resources */,
+				CD9F199A189F63E600B249B2 /* twitter@2x.png in Resources */,
+				CD9F1957189F639300B249B2 /* vote12_72x72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,32 +428,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3B521115FEAA760093DCDB /* main.m in Sources */,
-				CD3B521515FEAA760093DCDB /* AppDelegate.m in Sources */,
-				CDD6C803189EA37600EB57C4 /* ShareViewController.m in Sources */,
-				CD3B521E15FEAA760093DCDB /* ViewController.m in Sources */,
-				CD5EE78115FEE6A3008C99E1 /* ResultsViewController.m in Sources */,
-				CD3D9C851600195B003BF30B /* Question.m in Sources */,
-				CD73443D160C232D0040F96C /* Appirater.m in Sources */,
-				CDF91660161BE38100EC61A2 /* WebViewController.m in Sources */,
+				CD9F1930189F62BA00B249B2 /* Appirater.m in Sources */,
+				CD9F192C189F629500B249B2 /* AppDelegate.m in Sources */,
+				CD9F194B189F635B00B249B2 /* ViewController.m in Sources */,
+				CD9F193D189F630400B249B2 /* Question.m in Sources */,
+				CD9F194C189F635B00B249B2 /* WebViewController.m in Sources */,
+				CD9F1949189F635B00B249B2 /* ResultsViewController.m in Sources */,
+				CD9F1939189F62F100B249B2 /* main.m in Sources */,
+				CD9F194A189F635B00B249B2 /* ShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD3B520D15FEAA760093DCDB /* InfoPlist.strings */ = {
+		CD9F193E189F634600B249B2 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD3B520E15FEAA760093DCDB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CD3B521615FEAA760093DCDB /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD3B521715FEAA760093DCDB /* en */,
+				CD9F193F189F634600B249B2 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -534,12 +524,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vote2012/Vote-Prefix.pch";
-				INFOPLIST_FILE = "Vote2012/Vote-Info.plist";
+				GCC_PREFIX_HEADER = "Vote/Vote-Prefix.pch";
+				INFOPLIST_FILE = "Vote/Vote-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/patrick/Documents/Vote12/Vote2012,
+					/Users/patrick/Documents/Vote12/Vote,
 				);
 				PRODUCT_NAME = Vote;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -554,12 +544,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vote2012/Vote-Prefix.pch";
-				INFOPLIST_FILE = "Vote2012/Vote-Info.plist";
+				GCC_PREFIX_HEADER = "Vote/Vote-Prefix.pch";
+				INFOPLIST_FILE = "Vote/Vote-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/patrick/Documents/Vote12/Vote2012,
+					/Users/patrick/Documents/Vote12/Vote,
 				);
 				PRODUCT_NAME = Vote;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
