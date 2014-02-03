@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Vote2012
+//  Vote
 //
 //  Created by Patrick Crager on 9/10/12.
 //  Copyright (c) 2012 Patrick Crager. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  Question.h
-//  Vote2012
+//  Vote
 //
 //  Created by Patrick Crager on 9/11/12.
 //  Copyright (c) 2012 Patrick Crager. All rights reserved.
@@ -14,12 +14,12 @@
 @property (assign) BOOL obama;
 @property (assign) BOOL romney;
 @property (strong) NSURL *wikiUrl;
-@property (assign) NSInteger questionNumber;
+@property (assign) NSUInteger questionNumber;
 
 - (id)initWithQuestion:(NSString*)question
                  obama:(BOOL)obama
                 romney:(BOOL)romney
-        questionNumber:(NSInteger)questionNumber
+        questionNumber:(NSUInteger)questionNumber
                 wikiUrl:(NSURL*)wikiUrl;
 
 @end

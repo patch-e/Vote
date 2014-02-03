@@ -1,6 +1,6 @@
 //
 //  WebViewController.m
-//  Vote2012
+//  Vote
 //
 //  Created by Patrick Crager on 10/2/12.
 //  Copyright (c) 2012 Patrick Crager. All rights reserved.
@@ -14,20 +14,48 @@
 
 @implementation WebViewController
 
-- (IBAction)goBack:(id)sender {
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSLog(@"here");
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[AppDelegate delegate].currentQuestion.wikiUrl]];
+    
+    [[self webView] setDelegate: self];
+}
+
+- (void)viewDidUnload
+{
+    [self setWebView:nil];
+    [self setActivityIndicator:nil];
+    [self setBackButton:nil];
+    [self setForwardButton:nil];
+    [super viewDidUnload];
+}
+
+- (IBAction)goBack:(id)sender
+{
     [self.webView goBack];
 }
 
-- (IBAction)goForward:(id)sender {
+- (IBAction)goForward:(id)sender
+{
     [self.webView goForward];
 }
 
-- (void)webViewDidStartLoad:(UIWebView *)webView {
-    [self.activityIndicator startAnimating];
-    NSLog(@"started loading");
+- (IBAction)close:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    [Flurry logEvent:@"Back"];
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView {
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    [self.activityIndicator startAnimating];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
     [self.activityIndicator stopAnimating];
     
     if ([self.webView canGoBack])
@@ -39,25 +67,6 @@
         [self.forwardButton setEnabled:YES];
     else
         [self.forwardButton setEnabled:NO];
-    NSLog(@"finished loading");
-}
-
-
-- (IBAction)close:(id)sender
-{
-    [self dismissModalViewControllerAnimated:YES];
-    
-    [Flurry logEvent:@"Back"];
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [self.webView loadRequest:[NSURLRequest requestWithURL:appDelegate.currentQuestion.wikiUrl]];
-    
-    [[self webView] setDelegate: self];
 }
 
 @end

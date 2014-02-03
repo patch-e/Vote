@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question": "Do you support the bailout of the automobile industry?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.m.wikipedia.org\/wiki\/Effects_of_the_2008–2010_automotive_industry_crisis_on_the_United_States"
+    },
+    {
+      "question": "Do you support the Health Care reforms passed in March 2010?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.m.wikipedia.org\/wiki\/Patient_Protection_and_Affordable_Care_Act"
+    },
+    {
+      "question": "Do you feel raising the debt ceiling will have a negative impact on the economy?",
+      "obama": false,
+      "romney": true,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/United_States_debt-ceiling_crisis"
+    },
+    {
+      "question": "Do you feel sex education in schools should only include education on abstinence?",
+      "obama": false,
+      "romney": true,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Abstinence-only_sex_education"
+    },
+    {
+      "question": "Do you support domestic oil drilling to lower gas prices?",
+      "obama": false,
+      "romney": true,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/United_States_offshore_drilling_debate"
+    },
+    {
+      "question": "Do you feel we need additional federal regulations on gun control?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Gun_politics_in_the_United_States"
+    },
+    {
+      "question": "Do you support the attack on Iraq in 2003?",
+      "obama": false,
+      "romney": true,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/2003_invasion_of_Iraq"
+    },
+    {
+      "question": "Do you support same-sex marriage?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Same-sex_marriage_in_the_United_States"
+    },
+    {
+      "question": "Do you feel medical marijuana should be legal?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Medical_cannabis_in_the_United_States"
+    },
+    {
+      "question": "Do you feel the top 1% of the wealthiest Americans should be taxed more heavily?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Income_tax_in_the_United_States"
+    },
+    {
+      "question": "Do you support the legal option for abortion?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Abortion_in_the_United_States"
+    },
+    {
+      "question": "Do you feel the federal government should fund embryonic stem cell research?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Stem_cell_controversy"
+    },
+    {
+      "question": "Do you support tough interrogation techniques, such as waterboarding?",
+      "obama": false,
+      "romney": true,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Waterboarding"
+    },
+    {
+      "question": "Do you feel labor unions benefit their workers?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Labor_unions_in_the_United_States"
+    },
+    {
+      "question": "Do you feel a convicted felon should have the right to vote?",
+      "obama": true,
+      "romney": false,
+      "wikiUrl": "http:\/\/en.wikipedia.org\/wiki\/Felony_disenfranchisement"
+    }
+  ]
+}

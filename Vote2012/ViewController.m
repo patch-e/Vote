@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  Vote2012
+//  Vote
 //
 //  Created by Patrick Crager on 9/10/12.
 //  Copyright (c) 2012 Patrick Crager. All rights reserved.
@@ -13,6 +13,27 @@
 #import "Flurry.h"
 
 @implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    AppDelegate *appDelegate = [AppDelegate delegate];
+    if (appDelegate.currentQuestion != nil) {
+        [self.questionLabel setText:appDelegate.currentQuestion.question];
+    }
+    CGRect screenBound = [[UIScreen mainScreen] bounds];
+    CGSize screenSize = screenBound.size;
+    CGFloat screenHeight = screenSize.height;
+    if (screenHeight > 480) {
+        [self.segmented setFrame:CGRectMake(20,396,280,100)];
+    }
+    else {
+        [self.segmented setFrame:CGRectMake(20,308,280,100)];
+    }
+    
+    [Flurry logPageView];
+}
 
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -27,38 +48,10 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    AppDelegate *appDelegate = [AppDelegate delegate];
     if (appDelegate.currentQuestion != nil) {
         [self.progressView setProgress:(appDelegate.currentQuestion.questionNumber-1)/(float)15 animated:YES];
     }
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
- 
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    if (appDelegate.currentQuestion != nil) {
-        [self.questionLabel setText:appDelegate.currentQuestion.question];
-    }
-    CGRect screenBound = [[UIScreen mainScreen] bounds];
-    CGSize screenSize = screenBound.size;
-    CGFloat screenHeight = screenSize.height;
-    if (screenHeight > 480) {
-        [self.segmented setFrame:CGRectMake(20,396,280,100)];
-    }
-    else {
-        [self.segmented setFrame:CGRectMake(20,308,280,100)];
-    }
-
-    
-//code to rotate the progress view
-//    CGAffineTransform transform = CGAffineTransformMake(0.0, 1.0,-1.0, 0.0, self.progressView.frame.size.height, 0.0);
-//    transform = CGAffineTransformRotate(transform, M_PI); //Rotation angle is in radians
-//    self.progressView.frame = CGRectMake(-140,265,280,9);
-//    self.progressView.transform = transform;
-    
-    [Flurry logPageView];
 }
 
 - (void)viewDidUnload
@@ -85,7 +78,7 @@
 
 - (IBAction)back:(id)sender
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    AppDelegate *appDelegate = [AppDelegate delegate];
     if (appDelegate.answers.count != 0) {
         [appDelegate.answers removeObjectAtIndex:appDelegate.answers.count-1];
         appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:appDelegate.answers.count];
@@ -116,10 +109,9 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    AppDelegate *appDelegate = [AppDelegate delegate];
     NSInteger answerCount = appDelegate.answers.count;
     
-    //start
     if ([segue.identifier isEqualToString:@"start"]) {
         appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:0];
         
@@ -291,7 +283,7 @@
             [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
             
             appDelegate.complete = YES;
-            [self performSegueWithIdentifier: @"calculating" sender: self];
+            [self performSegueWithIdentifier:@"results" sender:self];
         }
     }
 }
