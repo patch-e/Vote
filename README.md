@@ -9,7 +9,7 @@ Support:
 http://mccrager.com/Vote12
 
 App Store:
-http://appstore.com//Vote12
+http://appstore.com/Vote12
 
 Final Version: 1.0
 
