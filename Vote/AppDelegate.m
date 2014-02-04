@@ -13,7 +13,8 @@
 
 @implementation AppDelegate
 
-+ (AppDelegate *)delegate {
++ (AppDelegate *)delegate
+{
     return (AppDelegate *)[UIApplication sharedApplication].delegate;
 }
 
@@ -31,9 +32,12 @@
 //    [Appirater setDebug:YES];
     
     NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"questions" ofType:@"json"];
-    NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath options:NSDataReadingMappedIfSafe error:nil];
+    NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath
+                                              options:NSDataReadingMappedIfSafe
+                                                error:nil];
     NSDictionary *questionData = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                                 options:NSJSONReadingMutableContainers error:nil];
+                                                                 options:NSJSONReadingMutableContainers
+                                                                   error:nil];
     
     NSMutableArray *questions = [[NSMutableArray alloc] init];
     NSUInteger count = 1;

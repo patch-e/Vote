@@ -11,9 +11,6 @@
 		CD3B520515FEAA760093DCDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520415FEAA760093DCDB /* UIKit.framework */; };
 		CD3B520715FEAA760093DCDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520615FEAA760093DCDB /* Foundation.framework */; };
 		CD3B520915FEAA760093DCDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3B520815FEAA760093DCDB /* CoreGraphics.framework */; };
-		CD3B522C15FEADB60093DCDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3B522B15FEADB60093DCDB /* Default.png */; };
-		CD3B522E15FEADC60093DCDB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3B522D15FEADC60093DCDB /* Default@2x.png */; };
-		CD3C81831606B0EF0094B5EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */; };
 		CD9F192C189F629500B249B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F192B189F629500B249B2 /* AppDelegate.m */; };
 		CD9F1930189F62BA00B249B2 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9F192E189F62BA00B249B2 /* Appirater.m */; };
 		CD9F1934189F62E200B249B2 /* libFlurry_4.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9F1932189F62E200B249B2 /* libFlurry_4.3.1.a */; };
@@ -65,6 +62,9 @@
 		CD9F199A189F63E600B249B2 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F1980189F63E600B249B2 /* twitter@2x.png */; };
 		CD9F199D189F650C00B249B2 /* vote12_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F199B189F650C00B249B2 /* vote12_57x57.png */; };
 		CD9F199E189F650C00B249B2 /* vote12_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F199C189F650C00B249B2 /* vote12_114x114.png */; };
+		CD9F19A3189F66EB00B249B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F19A0189F66EB00B249B2 /* Default-568h@2x.png */; };
+		CD9F19A4189F66EB00B249B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F19A1189F66EB00B249B2 /* Default.png */; };
+		CD9F19A5189F66EB00B249B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9F19A2189F66EB00B249B2 /* Default@2x.png */; };
 		CDD6C809189EEF4400EB57C4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C807189EEF4400EB57C4 /* CFNetwork.framework */; };
 		CDD6C80A189EEF4400EB57C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6C808189EEF4400EB57C4 /* StoreKit.framework */; };
 		CDD6C80C189EF0C900EB57C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD734440160C25F30040F96C /* SystemConfiguration.framework */; };
@@ -78,9 +78,6 @@
 		CD3B520415FEAA760093DCDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD3B520615FEAA760093DCDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD3B520815FEAA760093DCDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CD3B522B15FEADB60093DCDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		CD3B522D15FEADC60093DCDB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		CD734440160C25F30040F96C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CD9F192A189F629500B249B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Vote/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		CD9F192B189F629500B249B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Vote/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -144,6 +141,9 @@
 		CD9F199B189F650C00B249B2 /* vote12_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_57x57.png; path = Vote/vote12_57x57.png; sourceTree = SOURCE_ROOT; };
 		CD9F199C189F650C00B249B2 /* vote12_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vote12_114x114.png; path = Vote/vote12_114x114.png; sourceTree = SOURCE_ROOT; };
 		CD9F199F189F661900B249B2 /* Vote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Vote-Info.plist"; path = "Vote/Vote-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CD9F19A0189F66EB00B249B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD9F19A1189F66EB00B249B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		CD9F19A2189F66EB00B249B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		CDD6C807189EEF4400EB57C4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CDD6C808189EEF4400EB57C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		CDD6C80F189EF34300EB57C4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -247,9 +247,9 @@
 				CD9F1954189F639300B249B2 /* vote12_144x144.png */,
 				CD9F1955189F639300B249B2 /* vote12_512x512.png */,
 				CD9F1956189F639300B249B2 /* vote12_1024x1024.png */,
-				CD3B522B15FEADB60093DCDB /* Default.png */,
-				CD3B522D15FEADC60093DCDB /* Default@2x.png */,
-				CD3C81821606B0EF0094B5EA /* Default-568h@2x.png */,
+				CD9F19A1189F66EB00B249B2 /* Default.png */,
+				CD9F19A2189F66EB00B249B2 /* Default@2x.png */,
+				CD9F19A0189F66EB00B249B2 /* Default-568h@2x.png */,
 				CD9F194D189F637C00B249B2 /* Facebook.txt */,
 				CD9F194F189F637C00B249B2 /* Twitter.txt */,
 				CD9F194E189F637C00B249B2 /* questions.json */,
@@ -371,13 +371,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9F19A5189F66EB00B249B2 /* Default@2x.png in Resources */,
 				CD9F1986189F63E600B249B2 /* ballotbox_yes@2x.png in Resources */,
-				CD3B522C15FEADB60093DCDB /* Default.png in Resources */,
-				CD3B522E15FEADC60093DCDB /* Default@2x.png in Resources */,
 				CD9F1988189F63E600B249B2 /* ballotbox@2x.png in Resources */,
 				CD9F1998189F63E600B249B2 /* start@2x.png in Resources */,
 				CD9F1961189F63AB00B249B2 /* banner.png in Resources */,
-				CD3C81831606B0EF0094B5EA /* Default-568h@2x.png in Resources */,
 				CD9F1962189F63AB00B249B2 /* banner@2x.png in Resources */,
 				CD9F1951189F637C00B249B2 /* questions.json in Resources */,
 				CD9F198B189F63E600B249B2 /* facebook.png in Resources */,
@@ -388,7 +386,9 @@
 				CD9F1959189F639300B249B2 /* vote12_512x512.png in Resources */,
 				CD9F1991189F63E600B249B2 /* share.png in Resources */,
 				CD9F198F189F63E600B249B2 /* info.png in Resources */,
+				CD9F19A3189F66EB00B249B2 /* Default-568h@2x.png in Resources */,
 				CD9F195A189F639300B249B2 /* vote12_1024x1024.png in Resources */,
+				CD9F19A4189F66EB00B249B2 /* Default.png in Resources */,
 				CD9F1987189F63E600B249B2 /* ballotbox.png in Resources */,
 				CD9F1950189F637C00B249B2 /* Facebook.txt in Resources */,
 				CD9F198E189F63E600B249B2 /* forward@2x.png in Resources */,

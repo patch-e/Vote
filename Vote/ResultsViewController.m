@@ -39,7 +39,7 @@
 {
     [[AppDelegate delegate].answers removeAllObjects];
 
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:NO];
     
     [Flurry logEvent:@"Start Over"];
 }

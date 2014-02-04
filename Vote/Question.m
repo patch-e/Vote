@@ -10,7 +10,8 @@
 
 @implementation Question
 
-- (id)init {
+- (id)init
+{
     return [self initWithQuestion:@""
                             obama:NO
                            romney:NO
@@ -22,7 +23,8 @@
                  obama:(BOOL)obama
                 romney:(BOOL)romney
         questionNumber:(NSUInteger)questionNumber
-               wikiUrl:(NSURL *)wikiUrl {
+               wikiUrl:(NSURL *)wikiUrl
+{
     if (self = [super init]) {
         self.question = question;
         self.obama = obama;
