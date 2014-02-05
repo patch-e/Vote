@@ -58,9 +58,6 @@
         }
     }
     
-    NSLog(@"Obama: %d", obama);
-    NSLog(@"Romney: %d", romney);
-    
     if (obama > romney) {
         [self.resultLabel setText:@"Barack Obama"];
         [self.resultImage setImage:[UIImage imageNamed:@"obama.png"]];

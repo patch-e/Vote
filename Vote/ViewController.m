@@ -127,7 +127,7 @@
             }
 
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 1) {
@@ -138,7 +138,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 2) {
@@ -149,7 +149,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 3) {
@@ -160,7 +160,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 4) {
@@ -171,7 +171,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 5) {
@@ -182,7 +182,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 6) {
@@ -193,7 +193,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 7) {
@@ -204,7 +204,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 8) {
@@ -215,7 +215,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 9) {
@@ -226,7 +226,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 10) {
@@ -237,7 +237,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 11) {
@@ -248,7 +248,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 12) {
@@ -259,7 +259,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 13) {
@@ -270,7 +270,7 @@
             }
             
             appDelegate.currentQuestion = [appDelegate.questions objectAtIndex:answerCount+1];
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
         }
         
         if (answerCount == 14) {
@@ -280,7 +280,7 @@
                 [appDelegate.answers addObject:@"Romney"];
             }
             
-            [Flurry logEvent:[NSString stringWithFormat:@"Question %d", answerCount+1]];
+            [Flurry logEvent:[NSString stringWithFormat:@"Question %ld", answerCount+1]];
             
             appDelegate.complete = YES;
             [self performSegueWithIdentifier:@"results" sender:self];
