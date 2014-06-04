@@ -526,7 +526,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/patrick/Documents/Vote12/Vote,
+					"/Users/patrick/Documents/Vote/**",
 				);
 				PRODUCT_NAME = Vote;
 				PROVISIONING_PROFILE = "";
@@ -549,7 +549,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/patrick/Documents/Vote12/Vote,
+					"/Users/patrick/Documents/Vote/**",
 				);
 				PRODUCT_NAME = Vote;
 				PROVISIONING_PROFILE = "";
